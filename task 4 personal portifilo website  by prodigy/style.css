@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #000f02;
+    color: white;
+}
+
+/* NAVBAR */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background: rgba(17, 1, 1, 0.7);
+    padding: 15px 0;
+    backdrop-filter: blur(10px);
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.logo span {
+    color: #ff6bcd;
+}
+
+/* HOME SECTION */
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 5%;
+}
+
+.home-text h1 {
+    font-size: 55px;
+}
+
+.home-text h1 span {
+    color: #ff6bcd;
+}
+
+.home-text h2 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.home-text p {
+    width: 75%;
+    margin: 10px 0 25px;
+}
+
+.btn {
+    background: #ff6bcd;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.home-img img {
+    width: 320px;
+    border-radius: 20px;
+    border: 4px solid #ff6bcd;
+}
+
+/* ABOUT SECTION */
+.about {
+    padding: 80px 5%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.about-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.about-img img {
+    width: 300px;
+    border-radius: 20px;
+    border: 4px solid #ff6bcd;
+}
+
+.about-text ul {
+    margin: 15px 0;
+}
+
+/* PROJECTS */
+.projects {
+    padding: 90px 5%;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 25px;
+}
+
+.project-card {
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 12px;
+    border: 2px solid #ff6bcd;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+/* SKILLS */
+.skills {
+    padding: 80px 5%;
+}
+
+.skill-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skill-box {
+    background: #1a1a1a;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 2px solid #ff6bcd;
+    font-weight: 600;
+}
+
+/* CONTACT */
+.contact {
+    padding: 80px 5%;
+}
+
+.contact-box {
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 12px;
+    width: 300px;
+    margin: auto;
+    border: 2px solid #ff6bcd;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #444;
+}

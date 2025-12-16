@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Tic Tac Toe</h1>
+
+<div class="score-board">
+    <p id="scoreX">X Wins: 0</p>
+    <p id="scoreO">O Wins: 0</p>
+</div>
+
+<div id="mode-select">
+    <button onclick="setMode('human')">2 Player Mode</button>
+    <button onclick="setMode('ai')">Play vs AI</button>
+</div>
+
+<h2 id="status">Player X's Turn</h2>
+
+<div class="game-container">
+    <div class="cell" onclick="handleClick(0)"></div>
+    <div class="cell" onclick="handleClick(1)"></div>
+    <div class="cell" onclick="handleClick(2)"></div>
+    <div class="cell" onclick="handleClick(3)"></div>
+    <div class="cell" onclick="handleClick(4)"></div>
+    <div class="cell" onclick="handleClick(5)"></div>
+    <div class="cell" onclick="handleClick(6)"></div>
+    <div class="cell" onclick="handleClick(7)"></div>
+    <div class="cell" onclick="handleClick(8)"></div>
+</div>
+
+<button class="reset-btn" onclick="resetGame()">Reset All</button>
+
+<!-- Sounds -->
+<audio id="clickSound" src="https://www.myinstants.com/media/sounds/mouse-click.mp3"></audio>
+<audio id="winSound" src="https://www.myinstants.com/media/sounds/success-fanfare-trumpets.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>

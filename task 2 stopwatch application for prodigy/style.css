@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at top, #0a0f24, #000);
+    color: white;
+}
+
+.container {
+    width: 380px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.4);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.timer {
+    font-size: 32px;
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(0, 255, 255, 0.1);
+    border-radius: 10px;
+    border: 1px solid cyan;
+    box-shadow: inset 0 0 15px cyan;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    margin: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: cyan;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: white;
+    transform: scale(1.08);
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+#laps {
+    margin-top: 10px;
+    list-style: none;
+}
+
+#laps li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 6px;
+}

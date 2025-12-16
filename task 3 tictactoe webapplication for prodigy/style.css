@@ -1,0 +1,79 @@
+body {
+    background: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1600&q=80")
+        no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 3rem;
+    color: #222;
+}
+
+.score-board p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+#mode-select button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #4e73df;
+    color: white;
+    font-size: 1rem;
+}
+
+.game-container {
+    margin: 20px auto;
+    width: 310px;
+    height: 310px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+}
+
+.cell {
+    background: white;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.cell:hover {
+    background: #ddd;
+}
+
+.win {
+    background: #4caf50 !important;
+    color: white !important;
+    animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+    from { box-shadow: 0 0 5px #4caf50; }
+    to { box-shadow: 0 0 20px #4caf50; }
+}
+
+.reset-btn {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #e74a3b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
