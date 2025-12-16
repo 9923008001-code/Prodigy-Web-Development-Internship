@@ -11,19 +11,19 @@ End Date: 31st December 2025
 ## Tasks Completed
 
 ### Task 1
-Basic web development task using HTML, CSS, and JavaScript.
+landing page 
 
 ### Task 2
-Interactive frontend task.
+stopwatch application 
 
 ### Task 3
-JavaScript-based web application.
+Tic tac toe webapplication 
 
 ### Task 4
 Personal Portfolio Website.
 
 ### Task 5
-Weather Application using OpenWeather API.
+Weather Appl
 
 ## Technologies Used
 - HTML
